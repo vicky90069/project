@@ -57,7 +57,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
         />
 
         <span
-          className=" absolute right-3 top-[73px] cursor-pointer"
+          className=" absolute right-3 top-[80px] cursor-pointer"
           onClick={() => setShowPassword((prev) => !prev)}
         >
           {showPassword ? (
